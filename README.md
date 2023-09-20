@@ -17,6 +17,11 @@ Meningkatnya Investor saham tiap tahun, hal ini bisa jadi acuan untuk prediksi h
 ## Model LSTM(Long Short-Term Memort)
 Model LSTM juga dapat digunakan untuk memprediksi arah pergerakan saham. Arah pergerakan saham adalah apakah harga saham akan naik atau turun di masa depan. Untuk melakukan ini, model LSTM akan dilatih pada data historis arah pergerakan saham. Output dari model LSTM kemudian dapat digunakan untuk memprediksi arah pergerakan saham di masa depan.
 
+## Analisa Hasil
+Mean Squared Error (MSE): 0.0012252692619033514
+Root Mean Squared Error (RMSE): 0.03500384638726652
+R-squared (R2) Score: 0.8889532567719561
 
+Kesimpulan : RSI Menunjukkan Dibawah 30 menandakan Oversold dan kemungkinan jenuh jual harga bisa kemungkinan naik, sedangkan MA 50 Garis MA diatas close menandakan bahwa harga sedang downtrend, untuk prediksi menggunakan Variabel High ada Kemungkinan Harga Naik ke atas Dengan ML LSTM.
 
 
